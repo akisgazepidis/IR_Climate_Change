@@ -17,7 +17,7 @@ def check_postgres_connection():
         port=5434,
         database="Climate_Change_DB",
         user="postgres",
-        password="212121fg!"
+        password="****"
         )
         cursor = conn.cursor()
         cursor.execute("SELECT 1")
